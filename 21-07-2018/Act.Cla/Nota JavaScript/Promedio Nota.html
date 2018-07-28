@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		
+
+	</title>
+</head>
+<body>
+
+	<script type="text/javascript">
+
+		var notas = [];
+		var suma = 0;
+
+		for (var i = 1; i <= 7; i++) {
+
+			var nota = parseInt(prompt("Ingese la nota " +i));			
+			notas.push(nota);
+			var suma = nota + suma;			
+		}
+			var divisor = notas.length;
+			var promedio = suma / divisor;
+
+			alert(promedio); 
+
+
+
+
+	</script>
+
+</body>
+</html>
